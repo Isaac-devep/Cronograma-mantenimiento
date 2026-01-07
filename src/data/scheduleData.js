@@ -3,25 +3,25 @@ export const SCHEDULE_DATA = [
     id: "r1_g1",
     name: "R1 - Grupo 1",
     freeDays: {
-      "ENERO": [13, 21, 15, 16, 17],
+      "ENERO": [13, 21, 15, 16, 17, 31],
       "FEBRERO": [2, 3, 4, 5, 6, 7],
-      "MARZO": [9, 10, 4, 5, 6, 14],
-      "ABRIL": [6, 7, 1, 4],
+      "MARZO": [9, 10, 4, 5, 6, 14, 31],
+      "ABRIL": [6, 7, 1, 4, 29, 30],
       "MAYO": [4, 5, 6, 14, 8, 9],
-      "JUNIO": [2, 3, 4, 5, 6],
-      "JULIO": [6, 7, 1, 2, 3, 4],
-      "AGOSTO": [3, 4, 5, 13, 14, 8],
-      "SEPTIEMBRE": [7, 1, 2, 3, 4, 5],
-      "OCTUBRE": [5, 6, 7, 1, 2, 3],
-      "NOVIEMBRE": [9, 3, 4, 5, 6, 14],
-      "DICIEMBRE": [7, 1, 2, 3, 4, 5]
+      "JUNIO": [2, 3, 4, 5, 6, 30],
+      "JULIO": [6, 7, 1, 2, 3, 4, 29, 30, 31],
+      "AGOSTO": [3, 4, 5, 13, 14, 8, 31],
+      "SEPTIEMBRE": [7, 1, 2, 3, 4, 5, 29, 30],
+      "OCTUBRE": [5, 6, 7, 1, 2, 3, 31],
+      "NOVIEMBRE": [9, 3, 4, 5, 6, 14, 30],
+      "DICIEMBRE": [7, 1, 2, 3, 4, 5, 29, 30, 31]
     },
     schedule: {
       "8:00--9:50am": {
-        "Lunes": "Alferez Real", "Martes": "Adelita de Char", "Miércoles": "Camino Real", "Jueves": "Bellini", "Viernes": "clinica del carmen", "Sábado": "CARI"
+        "Lunes": "Alferez Real", "Martes": "Adelita de Char", "Miércoles": "Camino Real", "Jueves": "Bellini", "Viernes": "clinica del carmen", "Sábado": ""
       },
       "10:00--11:50am": {
-        "Lunes": "Shantia", "Martes": "", "Miércoles": "T. alacala", "Jueves": "Paso Del Bosque", "Viernes": "", "Sábado": ""
+        "Lunes": "Shantia / CARI", "Martes": "", "Miércoles": "T. alacala", "Jueves": "Paso Del Bosque", "Viernes": "", "Sábado": ""
       },
       "12:00--1:30pm": {
         "Lunes": "", "Martes": "", "Miércoles": "", "Jueves": "B. nacional", "Viernes": "", "Sábado": ""
@@ -53,13 +53,13 @@ export const SCHEDULE_DATA = [
     },
     schedule: {
       "8:00--9:50am": {
-        "Lunes": "Casandra", "Martes": "Mar Azul", "Miércoles": "Mar Azul", "Jueves": "Almirante", "Viernes": "Hamma", "Sábado": "Seguros colombia"
+        "Lunes": "Casandra", "Martes": "Mar Azul", "Miércoles": "Mar Azul", "Jueves": "Almirante Cartagena", "Viernes": "Torre Hamma (Trimestral)", "Sábado": "Seguros colombia (2 ascensores)"
       },
       "10:00--11:50am": {
         "Lunes": "Concilio", "Martes": "", "Miércoles": "", "Jueves": "Daniel edurado", "Viernes": "", "Sábado": ""
       },
       "2:00--3:50pm": {
-        "Lunes": "Costa Del Sol", "Martes": "Mar Azul", "Miércoles": "Mar Azul", "Jueves": "T. Scalea", "Viernes": "Ponce De Leon", "Sábado": "Banco anglo"
+        "Lunes": "Costa Del Sol", "Martes": "Mar Azul", "Miércoles": "Mar Azul", "Jueves": "T. Scalea", "Viernes": "Hospital Gestión Salud Santa Marta", "Sábado": "Banco anglo"
       },
       "4:00--5:45pm": {
         "Lunes": "Puerto Principe", "Martes": "", "Miércoles": "casa 39", "Jueves": "Santa Maria", "Viernes": "Banco Nacional", "Sábado": ""
@@ -85,19 +85,19 @@ export const SCHEDULE_DATA = [
     },
     schedule: {
       "8:00--9:50am": {
-        "Lunes": "Orquidea Real", "Martes": "Costa Blanca", "Miércoles": "C. caribe", "Jueves": "Dickinson", "Viernes": "Silver tower", "Sábado": "Clinica asuncion"
+        "Lunes": "Orquidea Real", "Martes": "Costa Blanca", "Miércoles": "C. caribe", "Jueves": "Dickinson", "Viernes": "Silver tower", "Sábado": ""
       },
       "10:00--11:50am": {
-        "Lunes": "", "Martes": "Livorno", "Miércoles": "Mar Alejandria", "Jueves": "Ciudad Real", "Viernes": "Luisiana", "Sábado": ""
+        "Lunes": "maestranza", "Martes": "Livorno", "Miércoles": "Mar Alejandria", "Jueves": "Ciudad Real", "Viernes": "Clínica Asunción (4 equipos)", "Sábado": ""
       },
       "12:00--1:30pm": {
-        "Lunes": "", "Martes": "", "Miércoles": "", "Jueves": "", "Viernes": "Historia Di Amore", "Sábado": ""
+        "Lunes": "", "Martes": "Madrigal", "Miércoles": "", "Jueves": "Genova Prado", "Viernes": "Historia Di Amore", "Sábado": ""
       },
       "2:00--3:50pm": {
         "Lunes": "Diago", "Martes": "Madrigar Ripoll", "Miércoles": "Cantaluna", "Jueves": "San Valentin", "Viernes": "Brisas del mar", "Sábado": "Genova"
       },
       "4:00--5:45pm": {
-        "Lunes": "maestranza", "Martes": "Madrigal", "Miércoles": "", "Jueves": "Genova Prado", "Viernes": "Vila Seca", "Sábado": ""
+        "Lunes": "", "Martes": "", "Miércoles": "", "Jueves": "", "Viernes": "Vila Seca / Hotel Buena Vista (Bimensual)", "Sábado": ""
       }
     }
   },
@@ -123,7 +123,7 @@ export const SCHEDULE_DATA = [
         "Lunes": "Comtemporary", "Martes": "Pilares De Jahneth", "Miércoles": "Marlin", "Jueves": "Winsor", "Viernes": "Balcones Villa Campestre", "Sábado": "corpavi"
       },
       "10:00--11:50am": {
-        "Lunes": "", "Martes": "Deco", "Miércoles": "Ankara", "Jueves": "Country Avenida", "Viernes": "", "Sábado": "Casa 39"
+        "Lunes": "", "Martes": "Deco", "Miércoles": "Ankara", "Jueves": "Country Avenida", "Viernes": "", "Sábado": ""
       },
       "2:00--3:50pm": {
         "Lunes": "Dior", "Martes": "Revive 60", "Miércoles": "itaka", "Jueves": "H. American Golf", "Viernes": "Balcones Villa Campestre", "Sábado": ""
@@ -148,10 +148,10 @@ export const SCHEDULE_DATA = [
     },
     schedule: {
       "8:00--9:50am": {
-        "Lunes": "Mar azul", "Martes": "Mar azul", "Miércoles": "Mar azul", "Jueves": "Villa Campestre apartamento", "Viernes": "Mont Blanc", "Sábado": ""
+        "Lunes": "Mar azul", "Martes": "Mar azul", "Miércoles": "Mar azul", "Jueves": "Villa Campestre apartamento", "Viernes": "Silver tower", "Sábado": ""
       },
       "2:00--3:50pm": {
-        "Lunes": "Mar azul", "Martes": "Mar azul", "Miércoles": "", "Jueves": "Villa Campestre apartamento", "Viernes": "Silver tower", "Sábado": ""
+        "Lunes": "Mar azul", "Martes": "Mar azul", "Miércoles": "", "Jueves": "Villa Campestre apartamento", "Viernes": "", "Sábado": ""
       }
     }
   },
@@ -168,8 +168,11 @@ export const SCHEDULE_DATA = [
       "DICIEMBRE": [7, 1, 2, 3, 4, 5]
     },
     schedule: {
+      "6:00--9:00am": {
+        "Lunes": "", "Martes": "Combarranquilla", "Miércoles": "", "Jueves": "", "Viernes": "", "Sábado": ""
+      },
       "8:00--9:50am": {
-        "Lunes": "Dante 92", "Martes": "combarranquilla", "Miércoles": "Torres De Villa Campestre", "Jueves": "Torres De Villa Campestre", "Viernes": "Torres De Villa Campestre", "Sábado": ""
+        "Lunes": "Dante 92", "Martes": "", "Miércoles": "Torres De Villa Campestre", "Jueves": "Torres De Villa Campestre", "Viernes": "Torres De Villa Campestre", "Sábado": ""
       },
       "10:00--11:50am": {
         "Lunes": "", "Martes": "Camino el pueblito", "Miércoles": "", "Jueves": "", "Viernes": "", "Sábado": ""
