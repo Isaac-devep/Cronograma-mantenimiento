@@ -21,16 +21,16 @@ export const SCHEDULE_DATA = [
         "Lunes": "Alferez Real", "Martes": "Adelita de Char", "Miércoles": "Camino Real", "Jueves": "Bellini", "Viernes": "clinica del carmen", "Sábado": ""
       },
       "10:00--11:50am": {
-        "Lunes": "Shantia / CARI", "Martes": "", "Miércoles": "T. alacala", "Jueves": "Paso Del Bosque", "Viernes": "", "Sábado": ""
+        "Lunes": "Shantia / CARI", "Martes": "Adelita de Char", "Miércoles": "Camino Real", "Jueves": "T. alacala", "Viernes": "Paso Del Bosque / B. Nacional", "Sábado": ""
       },
       "12:00--1:30pm": {
-        "Lunes": "", "Martes": "", "Miércoles": "", "Jueves": "B. nacional", "Viernes": "", "Sábado": ""
+        "Lunes": "", "Martes": "", "Miércoles": "", "Jueves": "", "Viernes": "", "Sábado": ""
       },
       "2:00--3:50pm": {
         "Lunes": "Don Luis Del Prado", "Martes": "Adelita De Char", "Miércoles": "Viverdi", "Jueves": "Ciudadela 20 de julio", "Viernes": "Manaos", "Sábado": ""
       },
       "4:00--5:45pm": {
-        "Lunes": "Clinica Altos Del Prado", "Martes": "Camino simon Bolivar", "Miércoles": "Lord", "Jueves": "Loranze", "Viernes": "", "Sábado": ""
+        "Lunes": "Clinica Altos Del Prado", "Martes": "Camino simon Bolivar", "Miércoles": "Lord", "Jueves": "Ciudadela 20 de julio", "Viernes": "Loranze", "Sábado": ""
       }
     }
   },
@@ -56,10 +56,10 @@ export const SCHEDULE_DATA = [
         "Lunes": "Casandra", "Martes": "Mar Azul", "Miércoles": "Mar Azul", "Jueves": "Almirante Cartagena", "Viernes": "Torre Hamma (Trimestral)", "Sábado": "Seguros colombia (2 ascensores)"
       },
       "10:00--11:50am": {
-        "Lunes": "Concilio", "Martes": "", "Miércoles": "", "Jueves": "Daniel edurado", "Viernes": "", "Sábado": ""
+        "Lunes": "Concilio", "Martes": "", "Miércoles": "", "Jueves": "Daniel edurado", "Viernes": "", "Sábado": "Banco anglo"
       },
       "2:00--3:50pm": {
-        "Lunes": "Costa Del Sol", "Martes": "Mar Azul", "Miércoles": "Mar Azul", "Jueves": "T. Scalea", "Viernes": "Hospital Gestión Salud Santa Marta", "Sábado": "Banco anglo"
+        "Lunes": "Costa Del Sol", "Martes": "Mar Azul", "Miércoles": "Mar Azul", "Jueves": "T. Scalea", "Viernes": "Hospital Gestión Salud Santa Marta", "Sábado": ""
       },
       "4:00--5:45pm": {
         "Lunes": "Puerto Principe", "Martes": "", "Miércoles": "casa 39", "Jueves": "Santa Maria", "Viernes": "Banco Nacional", "Sábado": ""
@@ -74,9 +74,9 @@ export const SCHEDULE_DATA = [
       "FEBRERO": [16, 17, 18, 19, 20, 21],
       "MARZO": [16, 17, 18, 19, 20, 28],
       "ABRIL": [13, 21, 15, 23, 24, 18],
-      "MAYO": [19, 20, 28, 22, 23],
-      "JUNIO": [16, 17, 18, 19, 20],
-      "JULIO": [21, 15, 16, 17, 18],
+      "MAYO": [19, 20, 28, 22, 23, 18],
+      "JUNIO": [16, 17, 18, 19, 20, 15],
+      "JULIO": [21, 15, 16, 17, 18, 20],
       "AGOSTO": [24, 18, 19, 20, 28, 22],
       "SEPTIEMBRE": [21, 15, 16, 17, 18, 19],
       "OCTUBRE": [19, 20, 28, 22, 23, 24],
@@ -85,16 +85,16 @@ export const SCHEDULE_DATA = [
     },
     schedule: {
       "8:00--9:50am": {
-        "Lunes": "Orquidea Real", "Martes": "Costa Blanca", "Miércoles": "C. caribe", "Jueves": "Dickinson", "Viernes": "Silver tower", "Sábado": ""
+        "Lunes": "Orquidea Real", "Martes": "Costa Blanca", "Miércoles": "C. caribe", "Jueves": "Dickinson", "Viernes": "Silver tower", "Sábado": "Genova"
       },
       "10:00--11:50am": {
-        "Lunes": "maestranza", "Martes": "Livorno", "Miércoles": "Mar Alejandria", "Jueves": "Ciudad Real", "Viernes": "Clínica Asunción (4 equipos)", "Sábado": ""
+        "Lunes": "maestranza", "Martes": "Livorno / Madrigal", "Miércoles": "Mar Alejandria", "Jueves": "Ciudad Real / Genova Prado", "Viernes": "Clínica Asunción (4 equipos) / Historia Di Amore", "Sábado": ""
       },
       "12:00--1:30pm": {
-        "Lunes": "", "Martes": "Madrigal", "Miércoles": "", "Jueves": "Genova Prado", "Viernes": "Historia Di Amore", "Sábado": ""
+        "Lunes": "", "Martes": "", "Miércoles": "", "Jueves": "", "Viernes": "", "Sábado": ""
       },
       "2:00--3:50pm": {
-        "Lunes": "Diago", "Martes": "Madrigar Ripoll", "Miércoles": "Cantaluna", "Jueves": "San Valentin", "Viernes": "Brisas del mar", "Sábado": "Genova"
+        "Lunes": "Diago", "Martes": "Madrigar Ripoll", "Miércoles": "Cantaluna", "Jueves": "San Valentin", "Viernes": "Brisas del mar", "Sábado": ""
       },
       "4:00--5:45pm": {
         "Lunes": "", "Martes": "", "Miércoles": "", "Jueves": "", "Viernes": "Vila Seca / Hotel Buena Vista (Bimensual)", "Sábado": ""
